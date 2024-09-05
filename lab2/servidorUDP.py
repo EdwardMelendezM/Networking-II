@@ -19,3 +19,6 @@ while True:
   mensajeModificado = mensaje.decode().upper()
   # enviar mensaje modificado de regreso al cliente
   socketServidor.sendto(mensajeModificado.encode(), direccionCliente)
+
+# Use tracert to verify 50 jumps
+# tracert -h 50 www.baidu.com
